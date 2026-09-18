@@ -10,12 +10,12 @@ const links: LinkItem[] = [
 
 export default function Home() {
   return (
-    <div className="flex min-h-full flex-1 items-start justify-center bg-zinc-50 px-4 py-12 dark:bg-black sm:py-20">
-      <main className="flex w-full max-w-md flex-col items-center gap-8">
+    <div className="flex min-h-full flex-1 items-start justify-center px-6 py-16 sm:py-24">
+      <main className="flex w-full max-w-md flex-col items-center gap-10">
         <Profile
-          name="노상근"
-          bio="세계 최강 바이브코더"
-          avatarInitial="노"
+          name="김개발"
+          bio="풀스택 개발자| 요즘에는 AI 개발에 관심이 많아요"
+          avatarUrl="https://placehold.co/150x150/orange/white.png"
         />
         <LinkList links={links} />
       </main>
